@@ -14,7 +14,19 @@ int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
+    int x;
+    cin>>x;
+    int arr[x];
+    for(int i=0;i<x;i++){
+        cin>>arr[i];
 
+    }
+    int sum=0;
+    for(int y:arr){
+        sum+=y;
+    }
+    cout<<sum/x;
+    
     
     return 0;
     

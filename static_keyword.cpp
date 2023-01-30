@@ -26,8 +26,8 @@ int main()
 
 
     for(int i=0;i<2;i++){
-        static int x=0;     //this is not
-        cout<<x;
+        int x=0;     //this is not
+        cout<<x<<endl;
         x++;
         
     }

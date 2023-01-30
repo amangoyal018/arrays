@@ -1,5 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
+void fun(int *ptr){
+    *ptr+=5;
+
+}
 
 
 
@@ -9,14 +13,8 @@ int main(){
         freopen("input.txt","r",stdin);
         freopen("output.txt","w",stdout);
     #endif
-
-
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-
-
-    
-    return 0;
-    
+    int x=10;
+    fun(&x);
+    cout<<x;
 
 }            

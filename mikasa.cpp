@@ -68,9 +68,15 @@ int main(){
     // cout<<strlen(str1);
     // string s="aman";
     // cout<<s.size();
-    int x;
-    cin>>x;
-    cout<<sumofn(x);
+
+
+    char name[4];
+    for(int i=0;i<4;i++){
+        cin>>name[i];
+    }
+    for(int i=3;i>=0;i--){
+        cout<<name[i];
+    }
 
 
 
